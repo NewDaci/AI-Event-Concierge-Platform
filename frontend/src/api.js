@@ -1,4 +1,5 @@
-const API_BASE = "http://localhost:8000/api";
+// const API_BASE = "http://localhost:8000/api";
+const API_BASE = "believable-renewal-production.up.railway.app/api";
 
 export async function searchVenue(query) {
   const response = await fetch(`${API_BASE}/search`, {
